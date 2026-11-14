@@ -1,5 +1,5 @@
 cc_library_shared {
-    name: "libqtivibratoreffect.oplus.pagani",
+    name: "libqtivibratoreffect.oplus.paganic",
     header_libs: [
         "libqtivibratoreffect_headers",
     ],

@@ -9,7 +9,7 @@ BOARD_SUPER_PARTITION_SIZE := 14956888064
 # Include the common OEM chipset BoardConfig.
 include device/oneplus/sm8750-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/pagani
+DEVICE_PATH := device/oneplus/paganic
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OP60F5L1
@@ -29,4 +29,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/pagani/BoardConfigVendor.mk
+include vendor/oneplus/paganic/BoardConfigVendor.mk
